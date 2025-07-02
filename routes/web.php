@@ -27,7 +27,7 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 // ✅ Halaman Statis
 Route::view('/organisasi', 'organisasi')->name('organisasi');
 Route::get('/warta-jemaat', function () {
-    return view('layouts.warta-jemaat');
+    return view('layouts.wartajemaat');
 });
 
 Route::get('/berita', function () {
